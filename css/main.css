@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 2px solid rgb(86, 233, 221);
+  
+}
+
+
+
+/* Logo start*/
+
+/* Logo Fİnish */
+
+/* Navbar Section Start */
+
+#navbar {
+  margin: 0 10rem;
+  height: 7rem;
+}
+
+#navbar nav ul li a.nav-link {
+  color: lightslategray !important;
+  font-size: 1.75rem;
+}
+#navbar nav ul li a.nav-link:hover {
+  color: white !important;
+}
+
+#navbar nav ul li a.active {
+  color: white !important;
+}
+#logo {
+  font-size: 2.5rem;
+}
+/* Navbar Section Finish */
+
+/* Home Section Start */
+#home {
+  height: 100vh;
+  background: url(../images/home-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#home-heading {
+  margin-left: 40rem;
+  margin-top: 20rem;
+}
+#home-heading h1 {
+  font-weight: 900;
+}
+
+#home-heading-span {
+  color: rgb(86, 233, 221);
+}
+
+#home-heading p {
+  margin-top: 2rem;
+}
+
+/* Home Section Finish */
+/* About Section Finish */
+#about {
+  height: 100vh;
+}
+
+#about {
+  padding: 20rem 10rem 0 10rem;
+  font-weight: 900;
+}
+#about-left{
+    padding-right: 5rem;
+}
+#about-heading h1 {
+  font-weight: 900;
+}
+
+#about-heading p{
+  color: rgb(86, 233, 221);
+  margin-top: 3rem;
+  margin-bottom: 0.2rem;
+}
+#about-heading p.text-dark {
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+#about-heading button{
+    margin-top: 1.5rem;
+    width: 10rem ;
+    height: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+#about-right {
+  margin-top: -3rem;
+  height: 25rem;
+  background: url(../images/computer.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: drop-shadow(30px 10px 4px rgb(75, 78, 78));
+  -webkit-filter: drop-shadow(30px 10px 4px rgb(75, 78, 78));
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+/* About Section Finish */
