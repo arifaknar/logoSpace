@@ -73,23 +73,23 @@ img{
 /* Home Section Finish */
 /* About Section Finish */
 
-#about { 
+#about,#why { 
   height: 100vh;
   padding: 20rem 10rem 0 10rem;
   font-weight: 900;
 }
-#about-left{
+#about-left,#why-left{
     padding-right: 5rem;
 }
-#about-heading h1 {
+#about-heading h1,#why-heading h1 {
   font-weight: 900;
 }
 
-#about-heading p{
+#about-heading p,#why-heading p{
   margin-top: 3rem;
   margin-bottom: 0.2rem;
 }
-#about-heading p.text-dark{
+#about-heading p.text-dark,#why-heading p.text-dark{
   font-weight: 500;
   word-spacing: 0.3rem;
   letter-spacing: 0.05rem;
@@ -104,7 +104,7 @@ button.btn-info{
     color: white;
 }
 
-#about-right {
+#about-right{
   margin-top: -3rem;
   height: 25rem;
   background: url(../images/computer.jpg);
@@ -149,5 +149,64 @@ button.btn-info{
 }
 
 /* Clarity Section Finish */
+/* Why Us Section Start */
+#why-right {
+  margin-top: -3rem;
+  height: 25rem;
+  background: url(../images/whyus_computer.jpg);
+  background-size: cover;
+  background-position: 0 -60px;
+  filter: drop-shadow(30px 10px 4px rgb(75, 78, 78));
+  -webkit-filter: drop-shadow(30px 10px 4px rgb(75, 78, 78));
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+/* Why Us Section Finish */
+/* Contact Section Start */
+#contact{
+  position: relative;
+  height: 80vh;
+  margin:0 auto ;
+  padding: 5rem;
+  background: url(../images/dunya3.jpg);
+  background-position: center;
+  background-size: cover;
+  
 
+}
+#contact::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color:#0dcaf0;
+  opacity:0.8;;
+}
+#contact #form{
+  width: 40%;
+  margin-top: -5rem;  
+
+}
+#contact-heading{
+  margin-top: 5rem;
+  display: block;
+z-index: 1000;
+}
+
+#contact .form{
+  position: relative;
+  z-index: 1000;
+}  
+
+.form div span{
+  background: none;
+  font-weight: 900;
+  color: aliceblue;
+}  
+/* Contact Section Finish */
 
