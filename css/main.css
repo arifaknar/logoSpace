@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 * {
-
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  padding: 0;  
+  padding: 0;
   box-sizing: border-box;
 }
 html {
@@ -16,13 +15,31 @@ a {
 
 header {
   border-bottom: 2px solid #0dcaf0;
-  
 }
 
-
-img{
+img {
   width: 100%;
   height: 100%;
+}
+.btn-info {
+  margin-top: 1.5rem;
+  width: 10rem;
+  height: 3rem;
+  letter-spacing: 0.1rem;
+  color: white !important;
+  background: #0dcaf0 !important;
+}
+
+.btn-info:hover {
+  font-weight: 500;
+  color: #0dcaf0 !important;
+  background: white !important;
+}
+
+.form-control:focus {
+  outline-offset: 1px !important;
+  box-shadow:20px 20px 50px 10px inset pink  !important;
+ 
 }
 
 
@@ -53,14 +70,13 @@ img{
 /* Home Section Start */
 #home {
   height: 100vh;
-  background: url(../images/home-bg.jpg);
+  background: url(../images/arkaplan3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #home-heading {
-  margin-left: 40rem;
-  margin-top: 20rem;
+  margin: 30rem 0 auto;
 }
 #home-heading h1 {
   font-weight: 900;
@@ -73,38 +89,36 @@ img{
 /* Home Section Finish */
 /* About Section Finish */
 
-#about,#why { 
+#about,
+#why {
   height: 100vh;
   padding: 20rem 10rem 0 10rem;
   font-weight: 900;
 }
-#about-left,#why-left{
-    padding-right: 5rem;
+#about-left,
+#why-left {
+  padding-right: 5rem;
 }
-#about-heading h1,#why-heading h1 {
+#about-heading h1,
+#why-heading h1,
+#contact-heading h1 {
   font-weight: 900;
 }
 
-#about-heading p,#why-heading p{
+#about-heading p,
+#why-heading p {
   margin-top: 3rem;
   margin-bottom: 0.2rem;
 }
-#about-heading p.text-dark,#why-heading p.text-dark{
+#about-heading p.text-dark,
+#why-heading p.text-dark {
   font-weight: 500;
   word-spacing: 0.3rem;
   letter-spacing: 0.05rem;
   margin-top: 1.5rem;
 }
 
-button.btn-info{
-    margin-top: 1.5rem;
-    width: 10rem ;
-    height: 3rem;
-    letter-spacing: 0.1rem;
-    color: white;
-}
-
-#about-right{
+#about-right {
   margin-top: -3rem;
   height: 25rem;
   background: url(../images/computer.jpg);
@@ -121,28 +135,28 @@ button.btn-info{
 /* About Section Finish */
 
 /* Clarity Section Start */
-#clarity{
+#clarity {
   height: 55vh;
-  background-color:#000;
+  background-color: #000;
   padding: 5rem;
   font-weight: 900;
 }
 
-#clarity-card{
+#clarity-card {
   padding-left: 5rem;
 }
-#clarity-card:last-child{
+#clarity-card:last-child {
   font-weight: 500;
   word-spacing: 0.3rem;
   letter-spacing: 0.05rem;
   margin-top: 1.5rem;
 }
 
-#clarity-card p{
-  margin-top:3rem;
+#clarity-card p {
+  margin-top: 3rem;
 }
 
-#clarity-img{
+#clarity-img {
   background: url(../images/telephone.jpg);
   background-size: cover;
   background-position: center;
@@ -166,47 +180,54 @@ button.btn-info{
 }
 /* Why Us Section Finish */
 /* Contact Section Start */
-#contact{
+#contact {
   position: relative;
-  height: 80vh;
-  margin:0 auto ;
-  padding: 5rem;
+  height: 95vh;
+  margin: 0 auto;
+  padding: 10rem 5rem;
   background: url(../images/dunya3.jpg);
   background-position: center;
   background-size: cover;
-  
-
 }
-#contact::before{
+#contact::before {
   position: absolute;
   top: 0;
   left: 0;
   content: "";
   width: 100%;
   height: 100%;
-  background-color:#0dcaf0;
-  opacity:0.8;;
+  background-color: #0dcaf0;
+  opacity: 0.8;
 }
-#contact #form{
+#contact #form {
   width: 40%;
-  margin-top: -5rem;  
-
+  margin-top: -5rem;
 }
-#contact-heading{
+#contact-heading {
   margin-top: 5rem;
   display: block;
-z-index: 1000;
+  z-index: 1000;
 }
 
-#contact .form{
+#contact .form {
   position: relative;
   z-index: 1000;
-}  
+}
 
-.form div span{
+.form div span {
   background: none;
   font-weight: 900;
   color: aliceblue;
-}  
+}
+
+.form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+  padding-top: 2.5rem !important;
+}
 /* Contact Section Finish */
 
+#copyright {
+  height: 5vh;
+  align-items: center;
+  filter: drop-shadow(5px 10px white);
+  -webkit-filter: drop-shadow(5px 10px white);
+}
